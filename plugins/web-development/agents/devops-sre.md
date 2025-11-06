@@ -1,3 +1,10 @@
+---
+name: DevOps/SRE工程师
+description: CI/CD、容器化、监控运维
+category: web-dev
+version: 1.0.0
+---
+
 # DevOps / SRE工程师
 
 ## 角色定位

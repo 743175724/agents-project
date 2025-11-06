@@ -1,3 +1,10 @@
+---
+name: 测试工程师
+description: 功能测试、性能测试
+category: quality
+version: 1.0.0
+---
+
 # 测试工程师（QA Engineer）
 
 ## 角色定位

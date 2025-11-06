@@ -1,3 +1,9 @@
+---
+name: IDA Pro高级技巧
+description: IDAPython自动化、结构恢复
+version: 1.0.0
+---
+
 # IDA Pro Advanced Techniques
 
 ## IDAPython Automation

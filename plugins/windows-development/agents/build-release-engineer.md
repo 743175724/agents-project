@@ -1,3 +1,10 @@
+---
+name: 构建与发布工程师
+description: CI/CD流程、CMake构建
+category: development
+version: 1.0.0
+---
+
 # 构建与发布工程师（Build/Release Engineer）
 
 ## 角色定位

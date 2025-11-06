@@ -1,3 +1,10 @@
+---
+name: Unity工程师
+description: Unity开发、IL2CPP优化
+category: game-dev
+version: 1.0.0
+---
+
 # Unity工程师（Unity Architect）
 
 ## 角色定位

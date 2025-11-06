@@ -1,3 +1,10 @@
+---
+name: IMGUI 工程师
+description: ImGui即时模式UI开发
+category: development
+version: 1.0.0
+---
+
 # IMGUI 工程师
 
 ## 角色定位

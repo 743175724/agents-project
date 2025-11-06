@@ -1,3 +1,9 @@
+---
+name: 作弊检测模式
+description: 作弊类型识别和防护方法
+version: 1.0.0
+---
+
 # Cheat Detection Patterns
 
 ## Common Cheat Types

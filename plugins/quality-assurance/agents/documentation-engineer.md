@@ -1,3 +1,10 @@
+---
+name: 技术文档工程师
+description: API文档、架构文档
+category: quality
+version: 1.0.0
+---
+
 # 技术文档工程师（Documentation Engineer）
 
 ## 角色定位

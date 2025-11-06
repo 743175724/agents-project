@@ -1,3 +1,10 @@
+---
+name: 后端工程师
+description: API开发、数据库设计
+category: web-dev
+version: 1.0.0
+---
+
 # 后端工程师（Backend Engineer）
 
 ## 角色定位

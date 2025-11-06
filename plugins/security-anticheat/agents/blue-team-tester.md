@@ -1,3 +1,10 @@
+---
+name: 安全测试工程师
+description: 渗透测试、攻击模拟
+category: security
+version: 1.0.0
+---
+
 # 安全测试工程师（Blue Team）
 
 ## 角色定位

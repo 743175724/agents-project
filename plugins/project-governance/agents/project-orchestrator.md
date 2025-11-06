@@ -1,3 +1,10 @@
+---
+name: 项目负责人
+description: 全局统筹、任务分配、协调审核
+category: governance
+version: 1.0.0
+---
+
 # 项目负责人（Project Orchestrator）
 
 ## 角色定位（Role Definition）

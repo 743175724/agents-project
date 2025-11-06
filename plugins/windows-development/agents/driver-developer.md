@@ -1,3 +1,10 @@
+---
+name: 驱动开发工程师
+description: 内核驱动开发、IOCTL接口
+category: development
+version: 1.0.0
+---
+
 # 驱动开发工程师（Driver Developer）
 
 ## 角色定位

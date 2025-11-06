@@ -1,3 +1,9 @@
+---
+name: UE Gameplay框架
+description: Actor、Pawn、GameMode核心类
+version: 1.0.0
+---
+
 # Unreal Engine Gameplay Framework
 
 ## Core Classes

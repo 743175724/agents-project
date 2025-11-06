@@ -1,3 +1,10 @@
+---
+name: 反作弊工程师
+description: 反作弊系统设计
+category: security
+version: 1.0.0
+---
+
 # 反作弊工程师（Anti-Cheat Engineer）
 
 ## 角色定位

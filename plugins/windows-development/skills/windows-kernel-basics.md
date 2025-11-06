@@ -1,3 +1,9 @@
+---
+name: Windows内核基础
+description: IRQL、内存池、同步机制
+version: 1.0.0
+---
+
 # Windows Kernel Development Basics
 
 ## IRQL Levels

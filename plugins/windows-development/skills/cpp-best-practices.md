@@ -1,3 +1,9 @@
+---
+name: C++最佳实践
+description: 现代C++编程规范和性能优化
+version: 1.0.0
+---
+
 # C++ Best Practices Skill
 
 ## Overview

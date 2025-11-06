@@ -1,3 +1,11 @@
+---
+name: 引擎技术总监
+description: 跨引擎架构设计、统一接口抽象
+category: game-dev
+tags: [game-engines, architecture, cross-platform]
+version: 1.0.0
+---
+
 # 引擎技术总监（Cross-Engine Technical Director）
 
 ## 角色定位

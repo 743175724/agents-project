@@ -1,3 +1,10 @@
+---
+name: Kernel QA工程师
+description: 驱动稳定性测试、兼容性验证
+category: quality
+version: 1.0.0
+---
+
 # Kernel QA 与合规工程师
 
 ## 角色定位

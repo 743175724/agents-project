@@ -1,3 +1,10 @@
+---
+name: C/C++ 系统工程师
+description: 核心模块开发、性能优化、并发编程
+category: development
+version: 1.0.0
+---
+
 # C/C++ 系统开发工程师
 
 ## 角色定位

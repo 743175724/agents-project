@@ -1,3 +1,10 @@
+---
+name: 前端工程师
+description: React/Vue开发
+category: web-dev
+version: 1.0.0
+---
+
 # 前端工程师（Frontend Engineer）
 
 ## 角色定位

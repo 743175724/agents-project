@@ -1,3 +1,10 @@
+---
+name: ExDUIR 工程师
+description: ExDUIR框架开发
+category: development
+version: 1.0.0
+---
+
 # ExDUIR 工程师
 
 ## 角色定位

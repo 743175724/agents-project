@@ -1,3 +1,9 @@
+---
+name: REST API设计
+description: RESTful接口设计原则
+version: 1.0.0
+---
+
 # RESTful API Design Principles
 
 ## Resource Naming

@@ -1,3 +1,10 @@
+---
+name: 逆向分析工程师
+description: 二进制分析、反汇编
+category: security
+version: 1.0.0
+---
+
 # 逆向分析工程师（Reverse Engineer）
 
 ## 角色定位

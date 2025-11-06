@@ -1,3 +1,10 @@
+---
+name: UE工程师
+description: 虚幻引擎插件开发
+category: game-dev
+version: 1.0.0
+---
+
 # UE工程师（Unreal Engine Architect）
 
 ## 角色定位

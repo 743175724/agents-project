@@ -1,3 +1,10 @@
+---
+name: UI/UX 设计师
+description: 界面设计、设计系统
+category: design
+version: 1.0.0
+---
+
 # UI/UX 设计师
 
 ## 角色定位

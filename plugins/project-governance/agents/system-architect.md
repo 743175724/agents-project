@@ -1,3 +1,10 @@
+---
+name: 技术架构师
+description: 技术蓝图设计、架构评审、性能把控
+category: governance
+version: 1.0.0
+---
+
 # 技术架构师（System Architect）
 
 ## 角色定位（Role Definition）

@@ -1,3 +1,10 @@
+---
+name: 安全工程师
+description: 安全架构、漏洞防护
+category: security
+version: 1.0.0
+---
+
 # 安全工程师（Security Engineer）
 
 ## 角色定位
