@@ -1,333 +1,179 @@
 {
+  "$schema": "https://modelcontextprotocol.io/schemas/marketplace.json",
   "name": "professional-development-agents",
-  "version": "1.0.0",
-  "description": "综合软件开发智能体团队系统 - 涵盖C++/驱动/UI/游戏/Web/安全/逆向等全技术栈",
-  "author": "Your Name",
-  "license": "MIT",
-  "repository": "https://github.com/743175724/agents-project",
+  "owner": {
+    "name": "743175724",
+    "github": "https://github.com/743175724"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "综合软件开发智能体团队系统 - 涵盖C++/驱动/UI/游戏/Web/安全/逆向等全技术栈"
+  },
   "plugins": [
     {
-      "id": "project-governance",
-      "name": "项目治理",
-      "description": "项目管理与技术架构治理",
+      "name": "project-governance",
+      "version": "1.0.0",
+      "description": "项目管理与技术架构治理 - 项目负责人和技术架构师",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
       "category": "management",
-      "version": "1.0.0",
+      "keywords": ["project-management", "architecture", "governance"],
+      "source": "plugins/project-governance",
       "agents": [
-        {
-          "id": "project-orchestrator",
-          "name": "项目负责人",
-          "description": "全局统筹、任务分配、协调审核、返工机制管理",
-          "file": "plugins/project-governance/agents/project-orchestrator.md"
-        },
-        {
-          "id": "system-architect",
-          "name": "技术架构师",
-          "description": "技术蓝图设计、架构评审、性能把控、技术决策",
-          "file": "plugins/project-governance/agents/system-architect.md"
-        }
+        "plugins/project-governance/agents/project-orchestrator.md",
+        "plugins/project-governance/agents/system-architect.md"
       ]
     },
     {
-      "id": "windows-development",
-      "name": "Windows开发",
-      "description": "C++系统开发、驱动开发、构建发布",
-      "category": "development",
+      "name": "windows-development",
       "version": "1.0.0",
+      "description": "Windows系统开发 - C++/驱动/构建全栈",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
+      "category": "development",
+      "keywords": ["cpp", "windows", "driver", "kernel", "build"],
+      "source": "plugins/windows-development",
       "agents": [
-        {
-          "id": "cpp-system-engineer",
-          "name": "C/C++ 系统开发工程师",
-          "description": "核心模块开发、性能优化、并发编程",
-          "file": "plugins/windows-development/agents/cpp-system-engineer.md"
-        },
-        {
-          "id": "driver-developer",
-          "name": "驱动开发工程师",
-          "description": "内核驱动开发、IOCTL接口、蓝屏调试",
-          "file": "plugins/windows-development/agents/driver-developer.md"
-        },
-        {
-          "id": "build-release-engineer",
-          "name": "构建与发布工程师",
-          "description": "CI/CD流程、CMake构建、代码签名",
-          "file": "plugins/windows-development/agents/build-release-engineer.md"
-        },
-        {
-          "id": "kernel-qa-engineer",
-          "name": "Kernel QA 与合规工程师",
-          "description": "驱动稳定性测试、兼容性验证、Driver Verifier",
-          "file": "plugins/windows-development/agents/kernel-qa-engineer.md"
-        }
+        "plugins/windows-development/agents/cpp-system-engineer.md",
+        "plugins/windows-development/agents/driver-developer.md",
+        "plugins/windows-development/agents/build-release-engineer.md",
+        "plugins/windows-development/agents/kernel-qa-engineer.md"
       ],
       "commands": [
-        {
-          "id": "build-project",
-          "name": "构建项目",
-          "description": "使用CMake构建C++项目",
-          "file": "plugins/windows-development/commands/build-project.md"
-        },
-        {
-          "id": "analyze-performance",
-          "name": "性能分析",
-          "description": "使用Profiler分析性能瓶颈",
-          "file": "plugins/windows-development/commands/analyze-performance.md"
-        }
+        "plugins/windows-development/commands/build-project.md",
+        "plugins/windows-development/commands/analyze-performance.md"
       ],
       "skills": [
-        {
-          "id": "cpp-best-practices",
-          "name": "C++最佳实践",
-          "description": "现代C++编程规范和性能优化技巧",
-          "file": "plugins/windows-development/skills/cpp-best-practices.md"
-        },
-        {
-          "id": "windows-kernel-basics",
-          "name": "Windows内核基础",
-          "description": "IRQL、内存池、同步机制等内核知识",
-          "file": "plugins/windows-development/skills/windows-kernel-basics.md"
-        }
+        "plugins/windows-development/skills/cpp-best-practices.md",
+        "plugins/windows-development/skills/windows-kernel-basics.md"
       ]
     },
     {
-      "id": "reverse-engineering",
-      "name": "逆向工程",
-      "description": "二进制分析、脱壳、协议逆向",
+      "name": "reverse-engineering",
+      "version": "1.0.0",
+      "description": "逆向工程与二进制分析 - IDA Pro/Ghidra专家",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
       "category": "security",
-      "version": "1.0.0",
+      "keywords": ["reverse-engineering", "ida-pro", "ghidra", "binary-analysis"],
+      "source": "plugins/reverse-engineering",
       "agents": [
-        {
-          "id": "reverse-engineer",
-          "name": "逆向分析工程师",
-          "description": "二进制分析、反汇编、兼容性研究",
-          "file": "plugins/reverse-engineering/agents/reverse-engineer.md"
-        }
+        "plugins/reverse-engineering/agents/reverse-engineer.md"
       ],
       "commands": [
-        {
-          "id": "analyze-binary",
-          "name": "分析二进制",
-          "description": "使用IDA Pro或Ghidra分析可执行文件",
-          "file": "plugins/reverse-engineering/commands/analyze-binary.md"
-        }
+        "plugins/reverse-engineering/commands/analyze-binary.md"
       ],
       "skills": [
-        {
-          "id": "ida-pro-techniques",
-          "name": "IDA Pro高级技巧",
-          "description": "IDAPython自动化、结构恢复、调试集成",
-          "file": "plugins/reverse-engineering/skills/ida-pro-techniques.md"
-        }
+        "plugins/reverse-engineering/skills/ida-pro-techniques.md"
       ]
     },
     {
-      "id": "game-development",
-      "name": "游戏开发",
-      "description": "UE5/Unity引擎开发、跨引擎架构",
-      "category": "development",
+      "name": "game-development",
       "version": "1.0.0",
+      "description": "游戏引擎开发 - UE5/Unity/跨引擎架构",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
+      "category": "game-dev",
+      "keywords": ["unreal-engine", "unity", "game-development", "ue5"],
+      "source": "plugins/game-development",
       "agents": [
-        {
-          "id": "unreal-architect",
-          "name": "UE工程师",
-          "description": "虚幻引擎插件开发、蓝图扩展、性能优化",
-          "file": "plugins/game-development/agents/unreal-architect.md"
-        },
-        {
-          "id": "unity-architect",
-          "name": "Unity工程师",
-          "description": "Unity开发、IL2CPP优化、原生桥接",
-          "file": "plugins/game-development/agents/unity-architect.md"
-        },
-        {
-          "id": "engine-technical-director",
-          "name": "引擎技术总监",
-          "description": "跨引擎架构设计、统一接口抽象",
-          "file": "plugins/game-development/agents/engine-technical-director.md"
-        }
+        "plugins/game-development/agents/unreal-architect.md",
+        "plugins/game-development/agents/unity-architect.md",
+        "plugins/game-development/agents/engine-technical-director.md"
       ],
       "commands": [
-        {
-          "id": "create-ue-plugin",
-          "name": "创建UE插件",
-          "description": "生成UE5插件脚手架",
-          "file": "plugins/game-development/commands/create-ue-plugin.md"
-        }
+        "plugins/game-development/commands/create-ue-plugin.md"
       ],
       "skills": [
-        {
-          "id": "unreal-gameplay-framework",
-          "name": "UE Gameplay框架",
-          "description": "Actor、Pawn、GameMode等核心类和组件模式",
-          "file": "plugins/game-development/skills/unreal-gameplay-framework.md"
-        }
+        "plugins/game-development/skills/unreal-gameplay-framework.md"
       ]
     },
     {
-      "id": "ui-design",
-      "name": "UI设计与开发",
-      "description": "ImGui/ExDUIR界面开发、UX设计",
-      "category": "development",
+      "name": "ui-design",
       "version": "1.0.0",
+      "description": "UI设计与开发 - ImGui/ExDUIR高性能界面",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
+      "category": "design",
+      "keywords": ["ui", "ux", "imgui", "exduir", "design"],
+      "source": "plugins/ui-design",
       "agents": [
-        {
-          "id": "ui-ux-designer",
-          "name": "UI/UX 设计师",
-          "description": "界面设计、设计系统、用户体验",
-          "file": "plugins/ui-design/agents/ui-ux-designer.md"
-        },
-        {
-          "id": "imgui-engineer",
-          "name": "IMGUI 工程师",
-          "description": "ImGui即时模式UI开发、高性能渲染",
-          "file": "plugins/ui-design/agents/imgui-engineer.md"
-        },
-        {
-          "id": "exduir-engineer",
-          "name": "ExDUIR 工程师",
-          "description": "ExDUIR框架开发、DPI适配、现代UI",
-          "file": "plugins/ui-design/agents/exduir-engineer.md"
-        }
+        "plugins/ui-design/agents/ui-ux-designer.md",
+        "plugins/ui-design/agents/imgui-engineer.md",
+        "plugins/ui-design/agents/exduir-engineer.md"
       ]
     },
     {
-      "id": "web-development",
-      "name": "Web开发",
-      "description": "前端、后端、DevOps全栈开发",
-      "category": "development",
+      "name": "web-development",
       "version": "1.0.0",
+      "description": "Web全栈开发 - 前端/后端/DevOps",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
+      "category": "web-dev",
+      "keywords": ["frontend", "backend", "devops", "react", "go", "kubernetes"],
+      "source": "plugins/web-development",
       "agents": [
-        {
-          "id": "frontend-engineer",
-          "name": "前端工程师",
-          "description": "React/Vue开发、状态管理、性能优化",
-          "file": "plugins/web-development/agents/frontend-engineer.md"
-        },
-        {
-          "id": "backend-engineer",
-          "name": "后端工程师",
-          "description": "API开发、数据库设计、业务逻辑",
-          "file": "plugins/web-development/agents/backend-engineer.md"
-        },
-        {
-          "id": "devops-sre",
-          "name": "DevOps/SRE工程师",
-          "description": "CI/CD、容器化、监控运维",
-          "file": "plugins/web-development/agents/devops-sre.md"
-        }
+        "plugins/web-development/agents/frontend-engineer.md",
+        "plugins/web-development/agents/backend-engineer.md",
+        "plugins/web-development/agents/devops-sre.md"
       ],
       "commands": [
-        {
-          "id": "create-api-endpoint",
-          "name": "创建API端点",
-          "description": "生成RESTful API端点代码",
-          "file": "plugins/web-development/commands/create-api-endpoint.md"
-        }
+        "plugins/web-development/commands/create-api-endpoint.md"
       ],
       "skills": [
-        {
-          "id": "rest-api-design",
-          "name": "REST API设计",
-          "description": "RESTful接口设计原则和最佳实践",
-          "file": "plugins/web-development/skills/rest-api-design.md"
-        }
+        "plugins/web-development/skills/rest-api-design.md"
       ]
     },
     {
-      "id": "security-anticheat",
-      "name": "安全与反作弊",
-      "description": "游戏安全、反作弊系统、安全测试",
+      "name": "security-anticheat",
+      "version": "1.0.0",
+      "description": "安全与反作弊 - 游戏安全/渗透测试",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
       "category": "security",
-      "version": "1.0.0",
+      "keywords": ["security", "anti-cheat", "penetration-testing", "game-security"],
+      "source": "plugins/security-anticheat",
       "agents": [
-        {
-          "id": "anticheat-engineer",
-          "name": "反作弊工程师",
-          "description": "反作弊系统设计、检测算法、对抗分析",
-          "file": "plugins/security-anticheat/agents/anticheat-engineer.md"
-        },
-        {
-          "id": "security-engineer",
-          "name": "安全工程师",
-          "description": "安全架构、漏洞防护、加密签名",
-          "file": "plugins/security-anticheat/agents/security-engineer.md"
-        },
-        {
-          "id": "blue-team-tester",
-          "name": "安全测试工程师",
-          "description": "渗透测试、攻击模拟、漏洞验证",
-          "file": "plugins/security-anticheat/agents/blue-team-tester.md"
-        }
+        "plugins/security-anticheat/agents/anticheat-engineer.md",
+        "plugins/security-anticheat/agents/security-engineer.md",
+        "plugins/security-anticheat/agents/blue-team-tester.md"
       ],
       "commands": [
-        {
-          "id": "scan-memory",
-          "name": "内存扫描",
-          "description": "扫描进程内存检测可疑模式",
-          "file": "plugins/security-anticheat/commands/scan-memory.md"
-        }
+        "plugins/security-anticheat/commands/scan-memory.md"
       ],
       "skills": [
-        {
-          "id": "cheat-detection-patterns",
-          "name": "作弊检测模式",
-          "description": "常见作弊类型识别和防护方法",
-          "file": "plugins/security-anticheat/skills/cheat-detection-patterns.md"
-        }
+        "plugins/security-anticheat/skills/cheat-detection-patterns.md"
       ]
     },
     {
-      "id": "quality-assurance",
-      "name": "质量保证",
-      "description": "测试、文档、质量管理",
+      "name": "quality-assurance",
+      "version": "1.0.0",
+      "description": "质量保证 - 测试/文档/QA流程",
+      "author": "743175724",
+      "homepage": "https://github.com/743175724/agents-project",
+      "repository": "https://github.com/743175724/agents-project",
+      "license": "MIT",
       "category": "quality",
-      "version": "1.0.0",
+      "keywords": ["testing", "qa", "documentation", "quality-assurance"],
+      "source": "plugins/quality-assurance",
       "agents": [
-        {
-          "id": "test-engineer",
-          "name": "测试工程师",
-          "description": "功能测试、性能测试、自动化测试",
-          "file": "plugins/quality-assurance/agents/test-engineer.md"
-        },
-        {
-          "id": "documentation-engineer",
-          "name": "技术文档工程师",
-          "description": "API文档、架构文档、知识库建设",
-          "file": "plugins/quality-assurance/agents/documentation-engineer.md"
-        }
+        "plugins/quality-assurance/agents/test-engineer.md",
+        "plugins/quality-assurance/agents/documentation-engineer.md"
       ]
     }
-  ],
-  "templates": [
-    {
-      "id": "rework-ticket",
-      "name": "返工单模板",
-      "description": "标准化的问题返工流程模板",
-      "file": "templates/rework-ticket.md"
-    },
-    {
-      "id": "learning-record",
-      "name": "学习记录模板",
-      "description": "知识沉淀和经验总结模板",
-      "file": "templates/learning-record.md"
-    },
-    {
-      "id": "weekly-report",
-      "name": "周报模板",
-      "description": "项目进度和团队周报模板",
-      "file": "templates/weekly-report.md"
-    }
-  ],
-  "tags": [
-    "cpp",
-    "windows-driver",
-    "reverse-engineering",
-    "game-development",
-    "unreal-engine",
-    "unity",
-    "web-development",
-    "security",
-    "anti-cheat",
-    "ui-design",
-    "project-management"
   ]
 }
